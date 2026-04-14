@@ -1,5 +1,8 @@
 {
-  "dependencies": {},
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.3.2"
+  },
   "devDependencies": {
     "@bytecodealliance/jco": "^1.17.6",
     "bun-plugin-wasm-component": "^1.0.1"
