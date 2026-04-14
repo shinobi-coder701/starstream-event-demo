@@ -1,8 +1,8 @@
-import { processAction } from "../gen-wasm/component.wasm";
+import * as utxo from "../gen-wasm/component.wasm";
 import { setBlockHeight } from "./bindings";
 
 setBlockHeight(7000);
-processAction();
+utxo.processAction();
 
 setBlockHeight(7100);
-processAction();
+utxo.processAction();
