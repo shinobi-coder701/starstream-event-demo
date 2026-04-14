@@ -1,0 +1,7 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "@bytecodealliance/jco": "^1.17.6",
+    "bun-plugin-wasm-component": "^1.0.1"
+  }
+}

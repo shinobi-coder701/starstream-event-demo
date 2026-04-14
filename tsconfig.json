@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "starstream:std/cardano": ["./src/bindings.ts"],
+      "my-abi": ["./src/bindings.ts"]
+    }
+  }
+}
